@@ -134,6 +134,12 @@
 
 当我明确要求 push 时，需要先总结本次提交内容，再执行 Git 操作。
 
+每次我要求 push 时，在执行 Git 提交和推送前，必须先：
+
+1. 检查 `LearningProgress.md` 是否记录了最新学习进度
+2. 检查 `README.md` 的当前状态、已完成课程数量、当前阶段和下一节是否与 `LearningProgress.md` 一致
+3. 如果 README 尚未同步，先更新 README，再进行 commit 和 push
+
 ## 学习记录要求
 
 建议维护以下文档：

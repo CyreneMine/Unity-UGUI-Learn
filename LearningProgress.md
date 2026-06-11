@@ -32,14 +32,14 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | UGUI 概述 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 概述课程，基本无实际操作 |
 | 2 | 六大基础组件概述 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 概述课程，已有一定 UGUI 使用经验 |
-| 3 | Canvas 渲染模式的控制 | 一、UGUI 系统基础 | 未开始 |  | Overlay、Camera、World Space |
-| 4 | CanvasScaler 必备知识 | 一、UGUI 系统基础 | 未开始 |  | 理解 UI 分辨率适配 |
-| 5 | CanvasScaler 恒定像素模式 | 一、UGUI 系统基础 | 未开始 |  | Constant Pixel Size |
-| 6 | CanvasScaler 缩放模式 | 一、UGUI 系统基础 | 未开始 |  | Scale With Screen Size |
-| 7 | CanvasScaler 恒定物理模式 | 一、UGUI 系统基础 | 未开始 |  | Constant Physical Size |
-| 8 | CanvasScaler 3D 模式 | 一、UGUI 系统基础 | 未开始 |  | World Space Canvas 缩放 |
-| 9 | GraphicRaycaster 图形射线投射器组件 | 一、UGUI 系统基础 | 未开始 |  | UI 射线检测 |
-| 10 | EventSystem 和 StandaloneInputModule | 一、UGUI 系统基础 | 未开始 |  | UI 输入与事件分发 |
+| 3 | Canvas 渲染模式的控制 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 理论课程，无实际操作；了解 Overlay、Camera、World Space |
+| 4 | CanvasScaler 必备知识 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 理论课程；理解 UI 分辨率适配的基础概念 |
+| 5 | CanvasScaler 恒定像素模式 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 Constant Pixel Size 模式 |
+| 6 | CanvasScaler 缩放模式 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 Scale With Screen Size 模式 |
+| 7 | CanvasScaler 恒定物理模式 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 Constant Physical Size 模式 |
+| 8 | CanvasScaler 3D 模式 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 World Space Canvas 缩放 |
+| 9 | GraphicRaycaster 图形射线投射器组件 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 UI 图形射线检测 |
+| 10 | EventSystem 和 StandaloneInputModule | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 UI 输入与事件分发 |
 | 11 | RectTransform 矩形变化 | 一、UGUI 系统基础 | 未开始 |  | Anchor、Pivot、位置与尺寸 |
 | 12 | Image 图像控件 | 二、常用 UI 控件 | 未开始 |  | Sprite 显示与填充 |
 | 13 | Text 文本控件 | 二、常用 UI 控件 | 未开始 |  | 旧版 UGUI Text |
@@ -94,6 +94,6 @@
 
 ## 当前进度
 
-- 当前学习位置：已完成第 2 节《六大基础组件概述》
+- 当前学习位置：已完成第 10 节《EventSystem 和 StandaloneInputModule》
 - 当前阶段：一、UGUI 系统基础
-- 下一步：学习第 3 节《Canvas 渲染模式的控制》
+- 下一步：学习第 11 节《RectTransform 矩形变化》

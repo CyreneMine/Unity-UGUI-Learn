@@ -24,6 +24,7 @@ public class PlayerObject : MonoBehaviour
     private void FireAudio()
     {
         AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.volume = MusicData.SoundVolume;
         audioSource.clip = clip;
         audioSource.Play();
         Destroy(audioSource, 0.8f);

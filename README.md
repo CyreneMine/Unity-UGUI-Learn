@@ -10,14 +10,14 @@
 - UGUI 包版本：`2.0.0`
 - 教程：唐老狮《Unity 中的 UI 系统之 UGUI》
 - 教程规模：61 节视频
-- 当前状态：已完成第 1-18 节，正在学习常用 UI 控件
+- 当前状态：已完成第 1-25 节，正在学习常用 UI 控件
 
 ## 当前进度
 
-- 已完成课程：`18 / 61`
+- 已完成课程：`25 / 61`
 - 当前阶段：二、常用 UI 控件
-- 已学习内容：UGUI 系统基础、Image、Text、RawImage、Button、Toggle
-- 下一节：第 19 节《InputField 文本输入控件》
+- 已学习内容：UGUI 系统基础、常用显示控件、Button、Toggle、InputField、Slider、Scrollbar、ScrollView
+- 下一节：第 26 节《Dropdown 下拉列表》
 - 详细记录：查看 [`LearningProgress.md`](LearningProgress.md)
 
 ## 学习阶段

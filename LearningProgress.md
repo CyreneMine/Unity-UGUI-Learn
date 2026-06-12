@@ -40,14 +40,14 @@
 | 8 | CanvasScaler 3D 模式 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 World Space Canvas 缩放 |
 | 9 | GraphicRaycaster 图形射线投射器组件 | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 UI 图形射线检测 |
 | 10 | EventSystem 和 StandaloneInputModule | 一、UGUI 系统基础 | 已完成 | 2026-06-11 | 了解 UI 输入与事件分发 |
-| 11 | RectTransform 矩形变化 | 一、UGUI 系统基础 | 未开始 |  | Anchor、Pivot、位置与尺寸 |
-| 12 | Image 图像控件 | 二、常用 UI 控件 | 未开始 |  | Sprite 显示与填充 |
-| 13 | Text 文本控件 | 二、常用 UI 控件 | 未开始 |  | 旧版 UGUI Text |
-| 14 | RawImage 原始图像控件 | 二、常用 UI 控件 | 未开始 |  | Texture 显示 |
-| 15 | Button 按钮控件 | 二、常用 UI 控件 | 未开始 |  | 点击事件与状态过渡 |
-| 16 | Button 按钮控件练习课 | 二、常用 UI 控件 | 未开始 |  | 检查绑定与点击逻辑 |
-| 17 | Toggle 开关控件 | 二、常用 UI 控件 | 未开始 |  | 单选、多选与 ToggleGroup |
-| 18 | Toggle 开关控件练习题 | 二、常用 UI 控件 | 未开始 |  | Toggle 交互练习 |
+| 11 | RectTransform 矩形变化 | 一、UGUI 系统基础 | 已完成 | 2026-06-12 | 了解 Anchor、Pivot、位置与尺寸 |
+| 12 | Image 图像控件 | 二、常用 UI 控件 | 已完成 | 2026-06-12 | 学习 Sprite 显示与填充 |
+| 13 | Text 文本控件 | 二、常用 UI 控件 | 已完成 | 2026-06-12 | 学习旧版 UGUI Text |
+| 14 | RawImage 原始图像控件 | 二、常用 UI 控件 | 已完成 | 2026-06-12 | 学习 Texture 显示 |
+| 15 | Button 按钮控件 | 二、常用 UI 控件 | 已完成 | 2026-06-12 | 学习点击事件与状态过渡 |
+| 16 | Button 按钮控件练习课 | 二、常用 UI 控件 | 已完成 | 2026-06-12 | 已完成并检查：按钮绑定与发射逻辑正确，无重复注册 |
+| 17 | Toggle 开关控件 | 二、常用 UI 控件 | 已完成 | 2026-06-12 | 学习 Toggle 开关与 ToggleGroup |
+| 18 | Toggle 开关控件练习题 | 二、常用 UI 控件 | 已完成 | 2026-06-12 | 已完成并检查：ToggleGroup 与发射音效开关逻辑正确 |
 | 19 | InputField 文本输入控件 | 二、常用 UI 控件 | 未开始 |  | 输入限制与事件 |
 | 20 | InputField 文本输入控件练习题 | 二、常用 UI 控件 | 未开始 |  | 输入控件练习 |
 | 21 | Slider 滑动条控件 | 二、常用 UI 控件 | 未开始 |  | 数值范围与回调 |
@@ -94,6 +94,6 @@
 
 ## 当前进度
 
-- 当前学习位置：已完成第 10 节《EventSystem 和 StandaloneInputModule》
-- 当前阶段：一、UGUI 系统基础
-- 下一步：学习第 11 节《RectTransform 矩形变化》
+- 当前学习位置：已完成第 18 节《Toggle 开关控件练习题》
+- 当前阶段：二、常用 UI 控件
+- 下一步：学习第 19 节《InputField 文本输入控件》

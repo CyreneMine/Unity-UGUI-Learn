@@ -15,6 +15,8 @@ public class GamePanel : MonoBehaviour
     [SerializeField] private Button btn_ChangeName;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private Button btn_Bag;
+    [SerializeField] private Transform sun;
+    [SerializeField] private TMP_Dropdown sunDropdown;
     private void Awake()
     {
         panel = this;
@@ -40,6 +42,16 @@ public class GamePanel : MonoBehaviour
         btn_Bag.onClick.AddListener((() =>
         {
             BagPanel.panel.gameObject.SetActive(true);
+        }));
+        sunDropdown.onValueChanged.AddListener((v =>
+        {
+            if (v == 0)
+            {
+                sun.eulerAngles = new Vector3(50, -30, 0);
+            }else if (v == 1)
+            {
+                sun.eulerAngles = new Vector3(210, -30, 0);
+            }
         }));
     }
     

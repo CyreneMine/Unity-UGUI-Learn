@@ -10,16 +10,16 @@
 - UGUI 包版本：`2.0.0`
 - 教程：唐老狮《Unity 中的 UI 系统之 UGUI》
 - 教程规模：61 节视频
-- 当前状态：已完成第 1-41 节；项目暂缓，先学习 JSON 持久化
+- 当前状态：已完成第 1-41 节；JSON 持久化前置学习已完成，准备开始 UGUI 实践小项目
 
 ## 当前进度
 
 - 已完成课程：`41 / 61`
-- 当前阶段：暂停中；UI 进阶能力阶段已完成
+- 当前阶段：准备开始四、简单 UI 管理与后续 UGUI 实践小项目
 - 已完成阶段：一、UGUI 系统基础；二、常用 UI 控件；三、UI 进阶能力
 - 已学习内容：UGUI 基础与常用控件、事件监听、坐标转换、Mask、摄像机分层渲染、异形按钮、自动布局与 CanvasGroup
-- 暂停安排：后续 UI 管理与综合案例需要 JSON 持久化内容，先学习 JSON 持久化后再继续
-- 恢复后的下一节：第 42 节《需求分析》
+- 前置学习：已完成 [Unity JSON 持久化学习项目](https://github.com/CyreneMine/Unity-Json-Learn)
+- 下一步：从第 42 节《需求分析》开始制作 UGUI 实践小项目
 - 详细记录：查看 [`LearningProgress.md`](LearningProgress.md)
 - 阶段复盘：查看 [`Notes/02-常用UI控件.md`](Notes/02-常用UI控件.md)、[`Notes/03-UI进阶能力.md`](Notes/03-UI进阶能力.md)
 
@@ -30,6 +30,10 @@
 3. UI 进阶能力：图集、事件监听、坐标转换、Mask、异形按钮、自动布局、CanvasGroup
 4. 简单 UI 管理：面板基类、UI 管理器、面板显示与隐藏
 5. 综合案例：提示、登录、注册、服务器和选服面板
+
+## 关联学习项目
+
+- [Unity JSON 持久化学习项目](https://github.com/CyreneMine/Unity-Json-Learn)：为 UGUI 实践项目中的配置、存档和数据读写提供前置知识。
 
 ## 目录结构
 

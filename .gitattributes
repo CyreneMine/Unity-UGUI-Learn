@@ -1,0 +1,2 @@
+# TextMesh Pro is a Unity-provided dependency, not project-authored source code.
+"Assets/TextMesh Pro/**" linguist-vendored

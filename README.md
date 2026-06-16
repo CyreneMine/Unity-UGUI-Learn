@@ -10,18 +10,18 @@
 - UGUI 包版本：`2.0.0`
 - 教程：唐老狮《Unity 中的 UI 系统之 UGUI》
 - 教程规模：61 节视频
-- 当前状态：已完成第 1-46 节，正在制作提示面板逻辑
+- 当前状态：已完成第 1-51 节，准备制作服务器面板
 
 ## 当前进度
 
-- 已完成课程：`46 / 61`
+- 已完成课程：`51 / 61`
 - 当前阶段：五、综合 UI 案例
 - 已完成阶段：一、UGUI 系统基础；二、常用 UI 控件；三、UI 进阶能力；四、简单 UI 管理
-- 已学习内容：面板基类、CanvasGroup 淡入淡出、UIManager 动态创建与销毁、提示面板 Prefab
+- 已学习内容：面板基类、CanvasGroup 淡入淡出、UIManager 动态创建与销毁、提示面板、登录面板、注册面板和账号数据持久化
 - 前置学习：已完成 [Unity JSON 持久化学习项目](https://github.com/CyreneMine/Unity-Json-Learn)
-- 下一步：继续完成第 47 节《提示面板面板逻辑》
+- 下一步：学习第 52 节《服务器面板拼面板》
 - 详细记录：查看 [`LearningProgress.md`](LearningProgress.md)
-- 阶段复盘：查看 [`Notes/02-常用UI控件.md`](Notes/02-常用UI控件.md)、[`Notes/03-UI进阶能力.md`](Notes/03-UI进阶能力.md)、[`Notes/04-简单UI管理.md`](Notes/04-简单UI管理.md)
+- 阶段复盘：查看 [`Notes/02-常用UI控件.md`](Notes/02-常用UI控件.md)、[`Notes/03-UI进阶能力.md`](Notes/03-UI进阶能力.md)、[`Notes/04-简单UI管理.md`](Notes/04-简单UI管理.md)、[`Notes/05-综合UI案例.md`](Notes/05-综合UI案例.md)
 
 ## 学习阶段
 

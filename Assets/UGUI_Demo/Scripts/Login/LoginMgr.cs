@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LoginMgr 
+public class LoginMgr
 {
     private static LoginMgr instance = new LoginMgr();
     public static LoginMgr Instance => instance;
@@ -50,7 +50,8 @@ public class LoginMgr
             if (registerData.registerInfo[username] == password)
             {
                 return true;
-            }else
+            }
+            else
             {
                 UIManager.Instance.ShowPanel<TipPanel>().ChangeInfo("密码错误");
                 return false;

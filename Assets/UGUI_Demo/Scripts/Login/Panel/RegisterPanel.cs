@@ -21,6 +21,7 @@ public class RegisterPanel : BasePanel
             {
                 LoginPanel loginPanel = UIManager.Instance.ShowPanel<LoginPanel>();
                 loginPanel.SetInfo(usernameField.text, passwordField.text);
+                LoginMgr.Instance.ClaerLoginData();
                 UIManager.Instance.HidePanel<RegisterPanel>();
             }
             else

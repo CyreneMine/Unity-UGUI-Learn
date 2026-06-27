@@ -13,7 +13,7 @@ public class LoginPanel : BasePanel
     public override void Init()
     {
         loginBtn.onClick.AddListener((() =>
-        {//TODO 判断用户输入的账号信息是否正确 后进入服务器面板
+        {
             if (LoginMgr.Instance.CheckInfo(usernameField.text, passwordField.text))
             {
                 LoginMgr.Instance.LoginData.userName = usernameField.text;
@@ -21,6 +21,14 @@ public class LoginPanel : BasePanel
                 LoginMgr.Instance.LoginData.autoLogin = autoLoginToggle.isOn;
                 LoginMgr.Instance.LoginData.rememberPw = rememberPwToggle.isOn;
                 LoginMgr.Instance.SaveLoginData();
+                if (LoginMgr.Instance.LoginData.choiceServerId < 1)
+                {
+                    UIManager.Instance.ShowPanel<ChooseServerPanel>();
+                }
+                else
+                {
+                    UIManager.Instance.ShowPanel<ServerPanel>();
+                }
                 UIManager.Instance.HidePanel<LoginPanel>();
             }
         }));
@@ -45,7 +53,7 @@ public class LoginPanel : BasePanel
     public override void ShowMe()
     {
         base.ShowMe();
-        LoginData loginData = JsonMgr.Instance.LoadData<LoginData>("LoginData");
+        LoginData loginData = LoginMgr.Instance.LoginData;
         usernameField.text = loginData.userName;
         rememberPwToggle.isOn = loginData.rememberPw;
         autoLoginToggle.isOn = loginData.autoLogin;
@@ -54,7 +62,23 @@ public class LoginPanel : BasePanel
             passwordField.text = loginData.password;
         }
         if (autoLoginToggle.isOn)
-        {//TODO 自动登录逻辑 直接进入选择服务器面板
+        {
+            if (LoginMgr.Instance.CheckInfo(usernameField.text, passwordField.text))
+            {
+                if (LoginMgr.Instance.LoginData.choiceServerId < 1)
+                {
+                    UIManager.Instance.ShowPanel<ChooseServerPanel>();
+                }
+                else
+                {
+                    UIManager.Instance.ShowPanel<ServerPanel>();
+                }
+                UIManager.Instance.HidePanel<LoginPanel>();
+            }
+            else
+            {
+                UIManager.Instance.ShowPanel<TipPanel>().ChangeInfo("账号或密码错误");
+            }
 
         }
     }

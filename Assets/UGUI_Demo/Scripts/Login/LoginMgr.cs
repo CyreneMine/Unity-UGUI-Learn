@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LoginMgr
@@ -8,12 +9,21 @@ public class LoginMgr
     public LoginData LoginData => loginData;
     private RegisterData registerData;
     public RegisterData RegisterData => registerData;
+    private List<ServerInfo>  serverInfos;
+    public List<ServerInfo> ServerInfos => serverInfos;
     private LoginMgr()
     {
         loginData = JsonMgr.Instance.LoadData<LoginData>("LoginData");
         registerData = JsonMgr.Instance.LoadData<RegisterData>("RegisterData");
+        serverInfos = JsonMgr.Instance.LoadData<List<ServerInfo>>("ServerInfo");
     }
 
+    public void ClaerLoginData()
+    {
+        loginData.choiceServerId = 0;
+        loginData.autoLogin = false;
+        loginData.rememberPw = false;
+    }
     public void SaveLoginData()
     {
         JsonMgr.Instance.SaveData(loginData, "LoginData");
